@@ -42,3 +42,6 @@ type CheckUserKeys = UserKeys extends "name" | "age" | "email" ? true : false;
 
 
 type title = Todo["title"]; // ( -> string)
+
+// 他参考記事
+// https://qiita.com/wataru86/items/f1356b5d1aef30012a20#fn-1
