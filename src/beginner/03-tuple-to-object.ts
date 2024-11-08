@@ -13,7 +13,7 @@ type result = TupleToObject<typeof tuple>;
 
 // 学び
 
-// そもそもタプルとは
+// そもそもタプルとは -> https://qiita.com/YSasago/items/ef29843bdc66f6397d46
 // ->特定の型と順序を持つ要素の集まり。配列とは異なり、各要素の型を個別に指定できる。
 const response: [number, string] = [200, "success"];
 
@@ -22,7 +22,7 @@ const response: [number, string] = [200, "success"];
 const color = ["red", "blue", "green", "yellow", "purple"] as const;
 // -> readnly ["red" | "blue" | "green" | "yellow" | "purple"]
 
-// typeofは変数に対して、keyofは型に対して使用可能。
+// typeofは変数に対して、keyofは型に対して使用可能。 -> https://qiita.com/yusei53/items/8e2af948b8a86d1dc0fe
 // typeof
 const person = {
   name: "Yuto",
@@ -39,7 +39,7 @@ type person = {
 
 type TokyoPerson = keyof person; // TokyoPerson = "name" | "age"
 
-// [number]は全てのインデックスの要素の型をユニオン型で取得。
+// [number]は全てのインデックスの要素の型をユニオン型で取得。 -> https://qiita.com/yusei53/items/8e2af948b8a86d1dc0fe
 // T[0] -> T[1] -> T[2] -> ...の順番で取得
 
 // 5行目の > T extends readonly (string | number | symbol)[]について
