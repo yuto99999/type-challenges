@@ -2,29 +2,19 @@
 type Length<T extends readonly any[]> = T["length"];
 
 const tesla = ["tesla", "model 3", "model X", "model Y"] as const;
-type spaceX = [
-  "FALCON 9",
-  "FALCON HEAVY",
-  "DRAGON",
-  "STARSHIP",
-  "HUMAN SPACEFLIGHT"
-];
+type spaceX = ["FALCON 9", 1000, "DRAGON", "STARSHIP", true];
 
 type teslaLength = Length<typeof tesla>; // expected 4
 type spaceXLength = Length<spaceX>; // expected 5
-
-
 
 // 発想
 // 1. とりあえず配列に制限したいので、extends any[]を記述
 // 2. teslaの配列がconstアサーションにより読み取り専用の配列になっているので、制約の中にreadonlyを追加
 // 3. あとは要素の数を取得するだけ
 
-
 // 学び
 // T["length"] -> 配列の要素を取得する -> https://mosya.dev/blog/tc-tuple-length
 tesla["length"]; // expected 4
-
 
 // 復習
 // typeof演算子とは
