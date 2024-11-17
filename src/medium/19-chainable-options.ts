@@ -1,3 +1,5 @@
+// チェイナブルなオブジェクトに型をつける
+// -> option と get の2つのプロパティを持つオブジェクト型のこと
 // option(key, value) と get() の2つの関数を提供する型を定義
 
 type Chainable<T = {}> = {
