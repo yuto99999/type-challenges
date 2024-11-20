@@ -11,7 +11,7 @@ type Replace<
   : S;
 
 type Test27_1 = Replace<"types are fun!", "fun", "awsome">; // "types are awsome!"
-type Test27_2 = Replace<"Good Morning!", "Morning", "Evening">; // "types Evening!"
+type Test27_2 = Replace<"Good Morning!", "Morning", "Evening">; // "Good Evening!"
 
 // 学び
 // 自分のコード(a)と解答のコード(b)の比較
