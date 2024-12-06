@@ -1,8 +1,16 @@
 # Qiitaの参照リンク一覧
 
 1.
+【TypeScript】Pick<T, K>の自作（type-challenges 初級編 4・Pick）
+https://qiita.com/yuto99999/items/dcc234f3e25a5393a2ab
+
+ユーティリティ型, extends, keyof演算子, Mapped Types, インデックスアクセス型
 
 2.
+【TypeScript】Readonly<T>の自作（type-challenges 初級編 7・Readonly）
+https://qiita.com/yuto99999/items/63956cda534df8706bc1
+
+Readonly<T>, readonly修飾子
 
 3.
 【TypeScript】タプルからオブジェクトを生成（type-challenges 初級編 11・Tuple to Object）
@@ -14,7 +22,7 @@ https://qiita.com/yuto99999/items/44161921ff23a149cba5
 【TypeScript】配列の最初の要素を返す型の実装（type-challenges 初級編 14・First of Array）
 https://qiita.com/yuto99999/items/057e28323118c4ac5de0
 
-Conditional Types, infer, スプレッド構文（…）
+Conditional Types, infer, 残余パターン(...)
 なぜ型推論をして、具体的な値（"a"や0）を抽出できるのか？
 
 5.
@@ -41,3 +49,10 @@ PrmosieLikeな型
 https://qiita.com/yuto99999/items/34e46438f71dc155d70c
 
 条件値がbooleanの場合、なぜユニオン型が返されるのか？
+
+9.
+【TypeScript】配列同士を結合する型の実装（type-challenges 初級編 533・Concat）
+https://qiita.com/yuto99999/items/f77e22e0a1e80b867ee5
+
+Array.concat(), スプレッド構文（…）
+
