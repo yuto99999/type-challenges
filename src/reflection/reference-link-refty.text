@@ -1,0 +1,51 @@
+# reftyの参照リンク一覧
+
+1.
+復習：Pick<T, K>の自作（TC-1）
+https://www.refty.jp/yuto99999/cm42vg7kb0001f8juia24wuht
+
+extends, keyof, Mapped Types, インデックスアクセス型
+
+2.
+復習：Readonly<T>の自作（TC-2）
+https://www.refty.jp/yuto99999/cm4583qdu00013yvj2ehyxt6b
+
+readonly修飾子
+
+3.
+復習：タプルからオブジェクトを生成（TC-3）
+https://www.refty.jp/yuto99999/cm49lcg4q00012swf7zrsv0rj
+
+タプルとは, constアサーション（as const）, typeof, [number]
+
+4.
+復習：配列の最初の要素を取得する（TC-4）
+https://www.refty.jp/yuto99999/cm49nsqlu0001v3a930wgecpv
+
+Conditional Types, infer, スプレッド構文（…）
+なぜ型推論をして、具体的な値（"a"や0）を抽出できるのか？
+
+5.
+タプルの長さを返す型の実装（TC-5）
+https://www.refty.jp/yuto99999/cm49pd3zw00016wua1wyuswuv
+
+配列型の要素の数を取得, ["length"]
+
+6.
+Exclude<T, U>の自作（TC-6）
+https://www.refty.jp/yuto99999/cm49r1b3r0001n5o6xjf2n8g8
+
+Exclude<T, U>
+ユニオン型の条件分岐の場合に何が起こる？
+
+7.
+Awaited<T>の自作（TC-7）
+https://www.refty.jp/yuto99999/cm4clb43r00013bbw4yuhetf2
+
+PrmosieLikeな型
+
+8.
+条件値によって戻り値を切り替える型の実装（TC-8）
+https://www.refty.jp/yuto99999/cm4cmhgnf000114ig7jz159jx
+
+条件値がbooleanの場合、なぜユニオン型が返されるのか？
