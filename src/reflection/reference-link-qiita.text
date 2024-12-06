@@ -1,0 +1,43 @@
+# Qiitaの参照リンク一覧
+
+1.
+
+2.
+
+3.
+【TypeScript】タプルからオブジェクトを生成（type-challenges 初級編 11・Tuple to Object）
+https://qiita.com/yuto99999/items/44161921ff23a149cba5
+
+タプルとは, constアサーション（as const）, typeof, [number]
+
+4.
+【TypeScript】配列の最初の要素を返す型の実装（type-challenges 初級編 14・First of Array）
+https://qiita.com/yuto99999/items/057e28323118c4ac5de0
+
+Conditional Types, infer, スプレッド構文（…）
+なぜ型推論をして、具体的な値（"a"や0）を抽出できるのか？
+
+5.
+【TypeScript】タプルの長さを返す型の実装（type-challenges 初級編 18・Length of Tuple）
+https://qiita.com/yuto99999/items/a147dd93e4fc65a8208d
+
+配列型の要素の数を取得, ["length"]
+
+6.
+【TypeScript】Exclude<T, U>の自作（type-challenges 初級編 43・Exclude）
+https://qiita.com/yuto99999/items/3e219b864dab956504ef
+
+Exclude<T, U>
+ユニオン型の条件分岐の場合に何が起こる？
+
+7.
+【TypeScript】Awaited<T>の自作（type-challenges 初級編 189・Awaited）
+https://qiita.com/yuto99999/items/b66b597bf61e47e126fe
+
+PrmosieLikeな型
+
+8.
+【TypeScript】条件値によって戻り値を切り替える型の実装（type-challenges 初級編 268•if）
+https://qiita.com/yuto99999/items/34e46438f71dc155d70c
+
+条件値がbooleanの場合、なぜユニオン型が返されるのか？
