@@ -45,7 +45,13 @@ https://www.refty.jp/yuto99999/cm4clb43r00013bbw4yuhetf2
 PrmosieLikeな型
 
 8.
-条件値によって戻り値を切り替える型の実装（TC-8）
+条件値によって戻り値を切り替える型（TC-8）
 https://www.refty.jp/yuto99999/cm4cmhgnf000114ig7jz159jx
 
 条件値がbooleanの場合、なぜユニオン型が返されるのか？
+
+9.
+配列同士を結合する（TC-9）
+https://www.refty.jp/yuto99999/cm4cwh9c8000113ktbw2f2x2j
+
+Array.concat(), スプレッド構文（…）
