@@ -6,7 +6,7 @@ Awaited<T>の自作（TC-7）
 条件値によって戻り値を切り替える型の実装（TC-8）
 
 ## Qiita
-【TypeScript】Exclude<T, U>の自作（type-challenges 初級編 43・Exclude）
+【TypeScript】type-challenges 初級編 898・Includes 解説
 
 --------------------------------------------------------------------
 
