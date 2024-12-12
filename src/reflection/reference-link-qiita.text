@@ -56,3 +56,8 @@ https://qiita.com/yuto99999/items/f77e22e0a1e80b867ee5
 
 Array.concat(), スプレッド構文（…）
 
+10.
+【TypeScript】type-challenges 初級編 898・Includes 解説
+https://qiita.com/yuto99999/items/ea23c998dc891475ce3d
+
+なぜ下記のコードでは期待した結果が得られないのか？
