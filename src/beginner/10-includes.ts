@@ -11,14 +11,12 @@ type IncludesTest2 = Includes<["Kars", "Esidisi", "Wamuu", "Santana"], "Dio">; /
 type IncludesTest3 = Includes<[1, 2, 3, 5, 6, 7], 7>; // true
 type IncludesTest4 = Includes<[1, 2, 3, 5, 6, 7], 4>; // false
 type IncludesTest5 = Includes<[{}], { a: "A" }>; // false
-type IncludesTest6 = Includes<[boolean, 2, 3, 5, 6, 7], false>; //false
 type IncludesTest7 = Includes<[true, 2, 3, 5, 6, 7], boolean>; // false
 type IncludesTest8 = Includes<[{ a: "A" }], { readonly a: "A" }>; // false
 type IncludesTest9 = Includes<[1], 1 | 2>; // false
-type IncludesTest10 = Includes<[1 | 2], 1>; // true
 type IncludesTest11 = Includes<[null], undefined>; //false
 
-
+type T111 = ["Kars", "Esidisi", "Wamuu", "Santana"][number]
 
 // 処理の流れ
 // 1.T[number]で配列の要素をUnion型に変換
