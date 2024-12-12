@@ -33,7 +33,24 @@ type Test43_3 = RemoveIndexSignature<Baz43>; // { bar(): void, baz: string }
 // 明示的なkeyではない！
 // インデックスシグネチャの型指定にはstring, number, symbolが使われる。
 
+// インデックスシグネチャのメリットは？
+// 1.固定されたキーを持つ必要がないので以下の書き方ができる
+// type StringMap = {
+//     [key: string]: string;
+//   };
+  
+//   const translations: StringMap = {
+//     en: "Hello",
+//     ja: "こんにちは",
+//     es: "Hola",
+//   };
+
+// 他はこの会話参照
+// https://chatgpt.com/c/675ae977-e400-8012-9cb2-0523b2aad9db // gpt
+
+
 // PropertyKey = string | number | symbol
+
 
 // P extends K ? never : ...
 // ここでインデックスシグネチャを除外している。
