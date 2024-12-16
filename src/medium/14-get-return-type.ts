@@ -1,7 +1,7 @@
 // ReturnType<T>の実装
 
 type MyReturnType<T extends (...args: any[]) => any> = T extends (
-  ...args: any
+  ...args: any[]
 ) => infer R
   ? R
   : never;
