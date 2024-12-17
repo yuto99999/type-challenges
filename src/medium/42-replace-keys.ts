@@ -1,3 +1,5 @@
+// 指定したkeyの型を変更する型の実装 
+
 type ReplaceKeys<U, T, Y> = {
   [K in keyof U]: K extends T ? (K extends keyof Y ? Y[K] : never) : U[K];
 };
