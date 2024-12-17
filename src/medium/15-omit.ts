@@ -23,6 +23,7 @@ interface Todo1 {
 
 // 学び
 
+// Mapped Typesにおけるasは型アサーションとは違うらしい！(2024/12/18)
 // 型アサーション「as」(type assertion) -> https://typescriptbook.jp/reference/values-types-variables/type-assertion-as
 // -> 型推論を上書きする機能
 // -> コンパイラに「俺の方が正しいよ！」とい意志表示
