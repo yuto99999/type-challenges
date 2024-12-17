@@ -1,3 +1,5 @@
+// 引数に与えた数値から1を引いた数字を返す型
+
 type Pop46<T extends any[]> = T extends [...infer Head, any] ? Head : never;
 
 type MinusOne<T extends number, A extends any[] = []> = A["length"] extends T
