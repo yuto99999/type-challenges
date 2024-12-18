@@ -84,7 +84,14 @@ https://qiita.com/yuto99999/items/4ace37d25df502048f7c
 
 12の解説記事を確認
 
-15. 【TypeScript】type-challenges 中級編 3・Omit 解説
+15. 
+【TypeScript】type-challenges 中級編 3・Omit 解説
 https://qiita.com/yuto99999/items/8557d13e24cd132f6ef2
 
 Omit, Mapped Typesにおけるas
+
+16.
+【TypeScript】type-challenges 中級編 8・Readonly 2 解説
+https://qiita.com/yuto99999/items/18f696f15887a02897f8
+
+default value, インターセクション型
