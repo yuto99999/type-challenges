@@ -63,6 +63,10 @@ type BadPartialByKeys<T, K extends keyof T = keyof T> = {
 // 2. 型を展開して見やすくする。
 // 3, 型推論を改善する
 
+// MyReadonly2が同じようなコードでOKな理由
+//  -> readonlyはプロパティが存在することが前提。
+// しかし、オプショナルの場合は、「あるかもしれなし、ないかもしれない」という曖昧さが交差型内で矛盾を引き起こす
+
 // 復習
 // Exclude<T, U> -> https://typescriptbook.jp/reference/type-reuse/utility-types/exclude
 // Tにはユニオン型が入る
