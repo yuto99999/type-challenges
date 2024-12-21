@@ -1,10 +1,20 @@
 // オブジェクトの全てのパラメーターを(再帰的に)読み取り専用にする
 
-type DeepReadonly<T> = keyof T extends never
-  ? T
-  : {
-      readonly [K in keyof T]: DeepReadonly<T[K]>;
-    };
+// answer1
+// type DeepReadonly<T> = keyof T extends never
+//   ? T
+//   : {
+//       readonly [K in keyof T]: DeepReadonly<T[K]>;
+//     };
+
+// answer2
+type DeepReadonly<T> = {
+  readonly [K in keyof T]: T[K] extends object
+    ? T[K] extends Function
+      ? T[K]
+      : DeepReadonly<T[K]>
+    : T[K];
+};
 
 type DP = {
   x: {
@@ -15,8 +25,6 @@ type DP = {
 };
 
 type test17_1 = DeepReadonly<DP>;
-
-
 
 // 処理の流れ
 
@@ -44,7 +52,6 @@ type test17_1 = DeepReadonly<DP>;
 // -> 条件分岐がtrueになる
 
 // 5.全てにreadonlyが付与される
-
 
 // 学び
 
