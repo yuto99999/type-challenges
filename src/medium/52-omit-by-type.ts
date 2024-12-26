@@ -1,4 +1,4 @@
-// Tから型がUに適合しないプロパティだけを選び出す
+// Tから型がUに適合するプロパティを削除
 
 type OmitByType<T, U> = { [P in keyof T as T[P] extends U ? never : P]: T[P] };
 
